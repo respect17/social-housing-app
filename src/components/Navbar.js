@@ -7,7 +7,7 @@ import UserIcon from '../icons/UserIcon';
 export default function Navbar() {
     return (
         <header className="flex items-center justify-between p-4 bg-white shadow-md">
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="flex items-center px-20">  {/* Added padding on the left */}
                 <Image
                     src="https://www.knuswonen.nu/assets/logo.svg"  // Replace with your actual logo file path
                     alt="KnusWonen Logo"
@@ -30,7 +30,7 @@ export default function Navbar() {
                     Projecten
                 </Link>
             </nav>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 px-20">  {/* Added padding on the right */}
                 <Link href="/search">
                     <SearchIcon className="w-6 h-6 text-blue-900 hover:text-orange-500" />
                 </Link>
