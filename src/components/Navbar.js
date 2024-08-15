@@ -31,8 +31,12 @@ export default function Navbar() {
                 </Link>
             </nav>
             <div className="flex space-x-4">
-                <SearchIcon className="w-6 h-6 text-blue-900" />
-                <UserIcon className="w-6 h-6 text-blue-900" />
+                <Link href="/search">
+                    <SearchIcon className="w-6 h-6 text-blue-900 hover:text-orange-500" />
+                </Link>
+                <Link href="/user-profile">
+                    <UserIcon className="w-6 h-6 text-blue-900 hover:text-orange-500" />
+                </Link>
             </div>
         </header>
     );
