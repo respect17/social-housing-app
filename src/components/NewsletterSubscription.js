@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+
 const NieuwsbriefInschrijving = () => {
     return (
         <div className="flex flex-col md:flex-row items-center justify-between bg-white p-8 rounded-lg shadow-md">
