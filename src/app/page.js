@@ -1,7 +1,8 @@
 import HeroSection from '../components/HeroSection';
 import Navbar from '../components/Navbar';
 import Features from '../components/Features';
-import NewsSection from '@/components/NewsSection';
+import NewsSection from '../components/NewsSection';
+import NewsletterSubscription from '../components/NewsletterSubscription';
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <Features />
       <NewsSection />
+      <NewsletterSubscription />
     </>
   );
 }
