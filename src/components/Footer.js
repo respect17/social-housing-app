@@ -37,7 +37,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="border-t border-gray-300 py-4">
+            <div className="border-t border-gray-300 py-4 bg-white">
                 <div className="container mx-auto px-4 flex flex-wrap justify-between items-center">
                     <div className="flex space-x-4">
                         <Link href="/privacy" className="text-sm hover:underline">Privacy</Link>
