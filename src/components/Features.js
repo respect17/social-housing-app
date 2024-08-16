@@ -11,7 +11,7 @@ const Features = () => {
                         alt="Aerial view of housing development"
                         width={800}
                         height={500}
-                        className="rounded-lg shadow-md object-cover h-full w-full"
+                        className=" h-full w-full"
                     />
                 </div>
                 <div className="md:w-1/2 flex flex-col justify-between h-full">

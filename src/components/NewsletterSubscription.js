@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import NewsImage4 from '../images/NewsImage4.png';
 
 
 const NieuwsbriefInschrijving = () => {
@@ -18,7 +19,7 @@ const NieuwsbriefInschrijving = () => {
             </div>
             <div className="md:w-1/2 flex justify-center">
                 <Image
-                    src=""
+                    src={NewsImage4}
                     alt="Nieuwsbrief illustratie"
                     width={400}
                     height={300}
