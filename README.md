@@ -61,7 +61,7 @@ The project is organized with best practices in mind:
 - `components/`: Contains reusable React components.
 - `pages/`: Contains the main pages of the project, including `index.js` for the homepage.
 - `styles/`: Contains global and component-specific styles.
-- `public/`: Contains static assets such as images and fonts.
+
 
 ## Approach to Responsiveness
 
