@@ -21,7 +21,7 @@ const Footer = () => {
                         <p>1234 AB Dorpstad</p>
                     </div>
                     <div>
-                        <h3 className="font-bold mb-2">Volg ons op onze sociale kanalen</h3>
+                        <h3 className="font-bold mb-2 px-2">Volg ons op onze sociale kanalen</h3>
                         <div className="flex space-x-4">
                             <Link href="#" className="text-orange-500 hover:text-orange-600">
                                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -37,12 +37,12 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="border-t border-gray-300 py-4 bg-white">
-                <div className="container mx-auto px-4 flex flex-wrap justify-between items-center">
+            <div className="border-t border-gray-300 py-4 bg-white px-5">
+                <div className="container mx-auto flex flex-wrap justify-between items-center">
                     <div className="flex space-x-4">
-                        <Link href="/privacy" className="text-sm hover:underline">Privacy</Link>
-                        <Link href="/cookieverklaring" className="text-sm hover:underline">Cookieverklaring</Link>
-                        <Link href="/disclaimer" className="text-sm hover:underline">Disclaimer</Link>
+                        <Link href="/privacy" className="text-sm underline hover:underline">Privacy</Link>
+                        <Link href="/cookieverklaring" className="text-sm  underline hover:underline">Cookieverklaring</Link>
+                        <Link href="/disclaimer" className="text-sm  underline hover:underline">Disclaimer</Link>
                     </div>
                     <p className="text-sm">© KnusWonen 2024</p>
                 </div>
