@@ -16,7 +16,7 @@ const Features = () => {
                 </div>
                 <div className="md:w-1/2 flex flex-col justify-between h-full">
                     <div className="flex-1">
-                        <h2 className="text-2xl font-bold text-[#7FCDCF] mb-4">
+                        <h2 className="text-4xl  font-serif text-[#7FCDCF] mb-4">
                             We verbeteren onze woningen
                         </h2>
                         <p className="text-gray-700 mb-6 text-base">

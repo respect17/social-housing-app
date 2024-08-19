@@ -8,7 +8,7 @@ const NieuwsbriefInschrijving = () => {
 
                 <div className="md:w-1/2 flex flex-col justify-between h-full">
                     <div className="flex-1">
-                        <h2 className="text-2xl font-bold text-orange-500 mb-4">
+                        <h2 className="text-4xl  font-serif text-orange-500 mb-4 ">
                             Schrijf je in voor onze nieuwsbrief
                         </h2>
                         <p className="text-gray-700 mb-6 text-base">
@@ -17,12 +17,14 @@ const NieuwsbriefInschrijving = () => {
                         <p className="text-gray-700 mb-6 text-base">
                             Schrijf je vandaag nog in en blijf verbonden met KnusWonen!
                         </p>
-                        <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded transition duration-300">
+                        <button
+                            className="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-bold py-2 px-8 rounded-md hover:from-orange-600 hover:to-yellow-500 transition duration-300">
+
                             Inschrijven
                         </button>
                     </div>
                 </div>
-                <div className="md:w-1/2 flex justify-center h-full">
+                <div className="md:w-1/2 flex justify-center h-full py-5">
                     <Image
                         src={NewsImage4}
                         alt="Nieuwsbrief illustratie"
