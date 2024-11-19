@@ -22,7 +22,8 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
    ```bash
    git clone https://github.com/yourusername/social-housing-homepage.git
-   ```
+   ``![Screenshot 2024-11-19 at 15 48 49](https://github.com/user-attachments/assets/0b7c566c-f964-4e4c-bd81-ab0c971f062d)
+`
 
 2. Navigate to the project directory:
 
